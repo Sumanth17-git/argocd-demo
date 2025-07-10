@@ -35,6 +35,6 @@ spec:
   ports:
     - name: metrics-port  # Named port for Prometheus
       protocol: TCP
-      port: 8881  # Exposed service port
+      port: 80  # Exposed service port
       targetPort: 8881  # Container port
   type: LoadBalancer  # Expose the service externally
